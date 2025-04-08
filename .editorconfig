@@ -1,0 +1,11 @@
+root = true
+
+[*.{kt,kts}]
+ktlint_standard_function-signature = disabled
+ktlint_standard_function-expression-body = disabled
+ktlint_standard_import-ordering = disabled
+ktlint_standard_trailing-comma-on-call-site = disabled
+ktlint_standard_trailing-comma-on-declaration-site = disabled
+ktlint_standard_no-semi = disabled
+ktlint_function_naming_ignore_when_annotated_with=Composable
+ktlint_standard_multiline-expression-wrapping = disabled

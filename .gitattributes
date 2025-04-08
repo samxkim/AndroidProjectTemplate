@@ -1,0 +1,9 @@
+# Normalize text file line endings in the repository
+* text=auto
+
+# Force certain file types to use CRLF (Windows line endings) in the working directory
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Force specific file types to use LF (Linux/Mac line endings) in the working directory
+*.sh text eol=lf
